@@ -1,6 +1,6 @@
 from django.http import HttpResponse
 
-
+#У меня получилось!
 def index(request):
     return HttpResponse('У меня получилось!')
 
